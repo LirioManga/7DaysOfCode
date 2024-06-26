@@ -56,3 +56,50 @@ nav a{
     background-color: #8E2424;
     border: 1px solid #8E2424;
 }
+
+
+.login {
+    width: 83px;
+    height: 44px;
+    color: #667085;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.signup {
+    width: 112px;
+    height: 44px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: white;
+    background-color: #8E2424;
+    border: 1px solid #8E2424;
+}
+
+.about {
+    text-align: center;
+    height: 407px;
+    width: 100vw;
+    position: relative;
+}
+
+.about div {
+    height: 80px;
+    width: 510px;
+    position: absolute;
+    top: 170px;
+    left: calc(50% - 255px); 
+    padding: 10px;
+}
+
+.about h3 {
+    font-size: 48px;
+    color: #101828;
+}
+
+.sobre-title {
+    padding-top: 96px;
+    color: #8E2424;
+}
