@@ -103,3 +103,60 @@ nav a{
     padding-top: 96px;
     color: #8E2424;
 }
+
+section.metricas-container{
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+div.metrica{
+    width: 280px;
+    height: 190px;
+}
+
+div.metrica h1, h2,p{
+    padding: 10px;
+    color: #667085;
+    font-size: 16px;
+}
+
+div.metrica h1{
+    color: #8E2424;
+    font-size: 50px;
+}
+
+
+div.talentos{
+    text-align: center;
+    height: 500px;
+    /*background-color: aquamarine;*/
+    padding: 10px;
+    position: relative;
+}
+
+div.talentos img{
+    height: 70%;
+    width: 90%;
+    margin-top: 20px;
+}
+
+div.talentos h1{
+    color: #8E2424;
+    font-size: 14px;
+    width: 10%;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 12px 4px 12px;
+    border-radius: 16px;
+    background-color: #f9f4f4;
+}
+
+div.talentos h2{
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+
+}
