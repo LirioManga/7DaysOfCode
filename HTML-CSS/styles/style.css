@@ -160,3 +160,97 @@ div.talentos h2{
     color: black;
 
 }
+/*---------- vagas abertas ------------*/
+
+div.vagas_abertas{
+    height: auto;
+   
+}
+
+div.design{
+  
+    width: 100%;
+    height: 300px;
+}
+
+ .vagas_disponivel{
+    height: 80px;
+    width: 750px;
+    margin: 10px;
+    border-radius: 16px;
+    border: 1.2px solid #EAECF0;
+    padding: 14px 14px 18px 14px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3#area{
+    padding: 10px;
+    width: 750px;
+    margin:auto;
+    margin-top: 15px;
+}
+
+.cargo{
+    font-weight: bolder;
+}
+
+.back-end{
+    padding-bottom: 10px;
+}
+
+.info_vaga{
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+    color: #667085;
+    font-size: 16px;
+}
+
+/*----------------- seccao dos depoimentos -----------------*/
+
+section.depoimentos{
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+section.depoimentos div{
+    width: 80%;
+    height: 80%;
+    background-color: #fdf8f8;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+section.depoimentos span{
+    padding: 3px;
+}
+section.depoimentos p{
+    font-weight: 700;
+    font-size: 26px;
+    color: black;
+    
+}
+
+ 
+.depoimentos img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+section.depoimentos .cargo.colaborador{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #667085;
+}
+
