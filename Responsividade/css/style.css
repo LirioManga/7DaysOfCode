@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f7fe;
+
+}
+
+header {
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    font-family: monospace;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > div {
+    background-color: #FFFFFF;
+}
+
+header > div > img{
+    padding: 2px;
+}
+
+
+
+
