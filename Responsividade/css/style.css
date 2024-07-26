@@ -70,7 +70,9 @@ section.today .day{
 .consulta_card{
     width: 330px;
     height: 170px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
     background-color: #FFFFFF;
     border-radius: 8px;
 }
@@ -177,4 +179,16 @@ section.today .day{
 
 .btn.video{
     background-color: #FFB050;
+}
+
+
+.consulta_type > .img_pin{
+    height: 16px;
+    width: 13px;
+    padding-top: 0;
+}
+
+.btn.endereco{
+    background-color: #4894FF;
+    width: 90%;
 }
