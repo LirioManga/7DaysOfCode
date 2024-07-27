@@ -1,10 +1,12 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
     background-color: #f9f7fe;
-
 }
 
 
@@ -18,9 +20,8 @@ header {
     height: 30px;
     font-size: 14px;
     padding: 5px;
-    background-color: #FFFFFF;
-    font-family: monospace;
-    
+    background-color: hsl(0, 0%, 100%);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +42,6 @@ hr{
 
 /* -------------- perfil principal ----------------*/
 section.nurse{
-    /*background-color: aqua;*/
     height: 100px;
     display: flex;
     gap: 10px;
@@ -52,7 +52,7 @@ section.nurse img{
     height: 70px;
     width: 70px;
     border-radius: 50%; 
-    margin-left: 10px; 
+    margin-left: 22.6px; 
 }
 
 .perfil > div{
@@ -62,7 +62,7 @@ section.nurse img{
 }
 
 /* ---------------- section today ---------------*/
-section.today .day{
+section.day_section .day{
     margin:10px;
     margin-left: 22.6px;
     font-size: 16px;
@@ -122,8 +122,8 @@ section.today .day{
 }
 
 .chat{
-    width: 32px;
-    height: 32px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background-color: #F6F6F6;
     position: absolute;
@@ -135,8 +135,9 @@ section.today .day{
     width: 20px;
     height: 20px;
     position: inherit;
-    top: 4px;
-    left: 6px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .info_consulta{
