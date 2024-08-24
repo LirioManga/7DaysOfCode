@@ -96,7 +96,7 @@ strong{
 
 .perfil > .perfil_image {
     width: 15%;
-    height: 60%;
+    height: 50%;
    
     border-radius: 50%;
     margin-left: 15px;
@@ -171,6 +171,7 @@ strong{
 .btn_container{
     height: 60px;
     background-color: transparent;
+    margin: auto;
 }
 
 
@@ -179,7 +180,7 @@ strong{
     width: 140px;
     border-radius: 8px;
     margin-top: 5px;
-    margin-left: 15px;
+    margin-left: 20px;
     color: #FFFFFF;
     font-size: 14px;
     border: none;
@@ -266,5 +267,61 @@ div.rodape_consulta{
     background-color: #4894FF;
     padding: 10px;
     border-radius: 6px;
+}
+
+
+/*--------------- MEDIA QUERIES -------------*/
+
+@media screen and (max-width:768px){
+    #maisOpcoes{
+        left: 78%;
+        box-shadow: 0px 0px 4px 3px #4894ff8a;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header{
+        display: none;
+    }
+
+    .card_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #maisOpcoes{
+        left: 90%;
+        box-shadow: 0px 0px 4px 3px #4894ff8a;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+    header{
+        display: none;
+    }
+
+    .card_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #maisOpcoes{
+        left: 93%;
+        box-shadow: 0px 0px 4px 3px #4894ff8a;
+    }
+
+
+    div.rodape_consulta{
+        justify-content: center; 
+        gap: 90px;
+        top: 140%; 
+    }
+
+    section.day_section .day.quarta_feira{
+        margin: 10px;
+        margin-bottom: 40px;
+    }
 }
 
